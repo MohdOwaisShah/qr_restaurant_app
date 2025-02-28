@@ -1,0 +1,30 @@
+/* footer */
+footer {
+    height: 4rem;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    padding: 0rem 1.8rem;
+}
+
+/* footer-nav */
+.footer-nav i {
+    font-size: 1.1rem;
+}
+
+.footer-nav .home-icon {
+    color: #A21A24;
+}
+
+.footer-nav i{
+    color: #2c2c2c;
+}
+
+.footer-nav p {
+    color: #2c2c2c;
+    font-size: 0.9rem;
+    font-weight: 600;
+}

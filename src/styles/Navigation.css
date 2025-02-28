@@ -1,0 +1,68 @@
+/* header */
+header {
+    height: 5rem;
+    width: 100%;
+}
+
+nav {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9.8rem;
+}
+
+/* left-nav */
+.left-nav {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.left-nav h4{
+    font-size: 1.1rem;
+    color: #2c2c2c;
+}
+
+/* right-nav */
+.right-nav {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+}
+
+.notification-container{
+    position: relative;
+}
+
+.notification-red-dote{
+    height: 1rem;
+    width: 1rem;
+    position: absolute;
+    top: 0px;
+    right: -3px;
+    border-radius: 50%;
+    background-color: #A21A24;
+}
+
+/* icons */
+ion-icon {
+    color: #2c2c2c;
+    font-size: 2.2rem;
+}
+
+.map-icon{
+    color: #787878;
+    font-size: 1.6rem;
+}
+
+.notificatin-icon{
+    color: #2c2c2c;
+    font-size: 1.8rem;
+}
+
+.menu-bar{
+    color: #2c2c2c;
+    font-size: 1.8rem;
+}

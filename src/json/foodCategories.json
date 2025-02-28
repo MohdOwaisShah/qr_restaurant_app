@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "foodName": "Mughlai",
+        "foodImage": "/public/Images/categories/pizza.png.webp"
+    },
+    {
+        "id": 2,
+        "foodName": "North In..",
+        "foodImage": "/public/Images/categories/pizza.png.webp"
+    },
+    {
+        "id": 3,
+        "foodName": "Biryani",
+        "foodImage": "/public/Images/categories/pizza.png.webp"
+    },
+    {
+        "id": 4,
+        "foodName": "seafood",
+        "foodImage": "/public/Images/categories/pizza.png.webp"
+    },
+    {
+        "id": 5,
+        "foodName": "dessert",
+        "foodImage": "/public/Images/categories/pizza.png.webp"
+    },
+    {
+        "id": 6,
+        "foodName": "beverages",
+        "foodImage": "/public/Images/categories/pizza.png.webp"
+    }
+]

@@ -1,0 +1,62 @@
+/* main */
+main h2 {
+    color: #2c2c2c;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 2rem 0rem;
+}
+
+/* search-bar-container */
+.search-bar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.search-bar-container input {
+    font-size: 1.1rem;
+    width: 20rem;
+    padding: 0.8rem 0.5rem 0.8rem 2.9rem;
+    border-radius: 2rem;
+    outline: none;
+    border: 1px solid #787878;
+}
+
+.search-icon {
+    font-size: 1.1rem;
+    position: absolute;
+    left: 2.8rem;
+    color: #787878;
+}
+
+/* category-product-main-container */
+.category-product-main-container {
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* category-product-container */
+.category-product-container {
+    width: 20rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.food {
+    text-align: center;
+}
+
+.category-product-container .food img {
+    height: 6rem;
+}
+
+.food p{
+    font-size: 1rem;
+    text-transform: capitalize;
+}
