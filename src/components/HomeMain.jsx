@@ -8,6 +8,9 @@ import HomeProduct from './small-ui/HomeProduct'
 
 
 const HomeMain = () => {
+
+    
+
     return (
         <main>
             {/* heading */}
@@ -26,7 +29,7 @@ const HomeMain = () => {
                     {
                         // print data from json file
                         foodCategories.map((food) => {
-                            return <div className="food" key={food.id}>
+                            return <div className="food" key={food.id} >
                                 <img src={food.foodImage} alt={food.foodName} />
                                 <p>{food.foodName}</p>
                             </div>

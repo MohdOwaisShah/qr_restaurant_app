@@ -1,18 +1,22 @@
 import React from 'react'
-// style
-import '../../styles/HomeProduct.css'
-
 // json-data
 import homeProduct from '../../json/homeProduct.json'
+// components
+import HomeSelectedProduct from './HomeSelectedProduct'
 
 const HomeProduct = () => {
+    
+    const handleDivClick = (id) => {
+        console.log(id)
+    }
+    
     return (
         //home-main-product-container
         <div className='home-main-product-container'>
             {/* home-product */}
             {
                 homeProduct.map((hProduct) => {
-                    return <div className="home-product" key={hProduct.id}>
+                    return <div className="home-product" key={hProduct.id} onClick={() =>handleDivClick(hProduct.id)}>
                         {/* home-product-image */}
                         <div className="home-product-image">
                             <img src={hProduct.homeFoodImage} alt={hProduct.homeFoodName} />
@@ -29,8 +33,7 @@ const HomeProduct = () => {
                     </div>
                 })
             }
-
-
+            <HomeSelectedProduct/>
         </div>
     )
 }
