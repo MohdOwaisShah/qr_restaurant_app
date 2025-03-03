@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "homeFoodName": "Biryani",
+        "homeFoodImage": "/public/Images/home-product-image/biryani.jpg",
+        "homeFoodPrice": "450",
+        "homeFoodDesc": "Biryani, North Indian, Chinese"
+    },
+    {
+        "id": 2,
+        "homeFoodName": "chicken curry",
+        "homeFoodImage": "/public/Images/home-product-image/chicken-curry.jpg",
+        "homeFoodPrice": "599",
+        "homeFoodDesc": "Spicy flavorful chicken curry"
+    },
+    {
+        "id": 3,
+        "homeFoodName": "Biryani",
+        "homeFoodImage": "/public/Images/home-product-image/biryani.jpg",
+        "homeFoodPrice": "450",
+        "homeFoodDesc": "Biryani, North Indian, Chinese"
+    }
+]

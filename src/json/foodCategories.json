@@ -28,5 +28,35 @@
         "id": 6,
         "foodName": "beverages",
         "foodImage": "/public/Images/categories/pizza.png.webp"
+    },
+    {
+        "id": 7,
+        "foodName": "Mughlai",
+        "foodImage": "/public/Images/categories/pizza.png.webp"
+    },
+    {
+        "id": 8,
+        "foodName": "North In..",
+        "foodImage": "/public/Images/categories/pizza.png.webp"
+    },
+    {
+        "id": 9,
+        "foodName": "Biryani",
+        "foodImage": "/public/Images/categories/pizza.png.webp"
+    },
+    {
+        "id": 10,
+        "foodName": "seafood",
+        "foodImage": "/public/Images/categories/pizza.png.webp"
+    },
+    {
+        "id": 11,
+        "foodName": "dessert",
+        "foodImage": "/public/Images/categories/pizza.png.webp"
+    },
+    {
+        "id": 12,
+        "foodName": "beverages",
+        "foodImage": "/public/Images/categories/pizza.png.webp"
     }
 ]
