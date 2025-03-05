@@ -1,22 +1,26 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 // json-data
 import homeProduct from '../../json/homeProduct.json'
 // components
 import HomeSelectedProduct from './HomeSelectedProduct'
 
 const HomeProduct = () => {
-    
-    const handleDivClick = (id) => {
-        console.log(id)
+    const [isShow, setIsShow] = useState(false)
+    const [pId, setPId] = useState({})
+
+    const handleDivClick = (producId) => {
+        // console.log(hProduct)
+        setIsShow(true)
+        setPId(producId)
     }
-    
+
     return (
         //home-main-product-container
         <div className='home-main-product-container'>
             {/* home-product */}
             {
                 homeProduct.map((hProduct) => {
-                    return <div className="home-product" key={hProduct.id} onClick={() =>handleDivClick(hProduct.id)}>
+                    return <div className="home-product" key={hProduct.id} onClick={() => handleDivClick(hProduct.id)}>
                         {/* home-product-image */}
                         <div className="home-product-image">
                             <img src={hProduct.homeFoodImage} alt={hProduct.homeFoodName} />
@@ -33,7 +37,8 @@ const HomeProduct = () => {
                     </div>
                 })
             }
-            <HomeSelectedProduct/>
+            {isShow ? <HomeSelectedProduct props={pId} /> : false}
+            {/* <HomeSelectedProduct/> */}
         </div>
     )
 }
