@@ -124,8 +124,8 @@ main h2 {
     margin-left: 1.1rem;
 }
 
-/* homeSelectedProduct */
-.home-selected-product {
+/* home-selected-product-container */
+.home-selected-product-container {
     height: 100vh;
     position: fixed;
     transition: all 0.4s ease;
