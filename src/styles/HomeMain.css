@@ -130,9 +130,12 @@ main h2 {
     position: fixed;
     transition: all 0.4s ease;
     top: 0rem;
-    left: 0;
-    right: 0;
     z-index: 99;
+    overflow-y: auto;
+}
+
+.home-selected-product{
+    width: 24rem;
 }
 
 /* close-n-black-bg */
@@ -142,6 +145,7 @@ main h2 {
     align-items: center;
     justify-content: center;
     background-color: #000000b0;
+    backdrop-filter: blur(0.16rem);
 }
 
 .close-n-black-bg .close-icon {

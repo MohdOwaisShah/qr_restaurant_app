@@ -1,10 +1,11 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 // json-data
 import homeProduct from '../../json/homeProduct.json'
 // components
 import HomeSelectedProduct from './HomeSelectedProduct'
 
 const HomeProduct = () => {
+
     const [isShow, setIsShow] = useState(false)
     const [pId, setPId] = useState({})
 
@@ -12,6 +13,11 @@ const HomeProduct = () => {
         // console.log(hProduct)
         setIsShow(true)
         setPId(producId)
+    }
+
+    // close the <HomeSelectedProduct /> component
+    const closeSelectedProduct = () => {
+        setIsShow(false)
     }
 
     return (
@@ -37,7 +43,9 @@ const HomeProduct = () => {
                     </div>
                 })
             }
-            {isShow ? <HomeSelectedProduct props={pId} /> : false}
+            {/* if isShow is true then print the <HomeSelectedProduct/> else return false */}
+            {/* pass two props 1 is props which is passes the id and 2 is closeProductFuncProp which passes the closeSelectedProduct function */}
+            {isShow ? <HomeSelectedProduct props={pId} closeProductFuncProp={closeSelectedProduct} /> : false}
             {/* <HomeSelectedProduct/> */}
         </div>
     )
