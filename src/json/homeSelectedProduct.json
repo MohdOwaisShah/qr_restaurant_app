@@ -3,18 +3,21 @@
         "id": 1,
         "selectedFoodImage": "/public/Images/home-product-image/biryani.jpg",
         "selectedFoodRatingNumber": 11,
-        "selectedFoodDesc": "A fragrant, spiced rice dish cooked with tender meat or vegetables, served with a blend of aromatic spices."
+        "selectedFoodDesc": "A fragrant, spiced rice dish cooked with tender meat or vegetables, served with a blend of aromatic spices.",
+        "selectedFoodQuantity": 1
     },
     {
         "id": 2,
         "selectedFoodImage": "/public/Images/home-product-image/chicken-curry.jpg",
         "selectedFoodRatingNumber": 11,
-        "selectedFoodDesc": "A fragrant, spiced rice dish cooked with tender meat or vegetables, served with a blend of aromatic spices."
+        "selectedFoodDesc": "A fragrant, spiced rice dish cooked with tender meat or vegetables, served with a blend of aromatic spices.",
+        "selectedFoodQuantity": 1
     },
     {
         "id": 3,
         "selectedFoodImage": "/public/Images/home-product-image/biryani.jpg",
         "selectedFoodRatingNumber": 11,
-        "selectedFoodDesc": "A fragrant, spiced rice dish cooked with tender meat or vegetables, served with a blend of aromatic spices."
+        "selectedFoodDesc": "A fragrant, spiced rice dish cooked with tender meat or vegetables, served with a blend of aromatic spices.",
+        "selectedFoodQuantity": 1
     }
 ]

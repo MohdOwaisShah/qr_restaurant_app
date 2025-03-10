@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 // json-data
 import homeSelectedProduct from '../../json/homeSelectedProduct.json'
 // icons
@@ -9,12 +9,19 @@ import { FaStar } from "react-icons/fa";
 // half star icon
 import { FaStarHalfAlt } from "react-icons/fa";
 
-
 const HomeSelectedProduct = ({ props, closeProductFuncProp }) => {
   // if id match the json id than remove all the object accept match id from json data
   let filteredData = homeSelectedProduct.filter((homeProduct) => {
     return homeProduct.id === props
   })
+
+  const [foodQuantity, setFoodQuantity] = useState(1)
+  const handleIncrementBtn = (selectedFoodQuantity) => {
+    setFoodQuantity(foodQuantity + 1)
+    selectedFoodQuantity = foodQuantity
+    localStorage.setItem("name", "owais")
+    // console.log(quantity)
+  }
 
   return (
     // Home-selected-product
@@ -128,10 +135,10 @@ const HomeSelectedProduct = ({ props, closeProductFuncProp }) => {
             {/* main-selected-product-increment-n-decrement */}
             <div className="main-selected-product-increment-n-decrement">
               <button className='selected-product-decrement-btn'>-</button>
-              <span>1</span>
-              <button className='selected-product-increment-btn'>+</button>
+              <span>{selectedProduct.selectedFoodQuantity}</span>
+              <button className='selected-product-increment-btn' onClick={() => handleIncrementBtn(selectedProduct.selectedFoodQuantity)}>+</button>
             </div>
-            <button className='selected-product-add-btn'>Add ₹450</button>
+            <button className='selected-product-add-btn' onClick={() => alert()}>Add ₹450</button>
           </div>
         </div>
       </div>

@@ -1,5 +1,7 @@
 import React from 'react'
 import '../styles/Footer.css'
+// Link
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
@@ -8,8 +10,10 @@ const Footer = () => {
             {/* footer-nav */}
             <div className="footer-nav">
                 {/* home-icon */}
-                <i className="fa-solid fa-house home-icon"></i>
-                <p>Home</p>
+                <Link to={'/'}>
+                    <i className="fa-solid fa-house home-icon"></i>
+                    <p>Home</p>
+                </Link>
             </div>
             <div className="footer-nav">
                 {/* reorder-icon */}
@@ -18,13 +22,17 @@ const Footer = () => {
             </div>
             <div className="footer-nav">
                 {/* cart-icon */}
-                <i className="fa-solid fa-cart-shopping"></i>
-                <p>Cart</p>
+                <Link to={'/cart'}>
+                    <i className="fa-solid fa-cart-shopping"></i>
+                    <p>Cart</p>
+                </Link>
             </div>
             <div className="footer-nav">
                 {/* Transaction */}
-                <i className="fa-solid fa-money-bill"></i>
-                <p>Transaction</p>
+                <Link to={"/transaction-history"}>
+                    <i className="fa-solid fa-money-bill"></i>
+                    <p>Transaction</p>
+                </Link>
             </div>
         </footer>
     )

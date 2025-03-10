@@ -12,6 +12,10 @@ footer {
 }
 
 /* footer-nav */
+.footer-nav a{
+    text-decoration: none;
+}
+
 .footer-nav i {
     font-size: 1.1rem;
 }

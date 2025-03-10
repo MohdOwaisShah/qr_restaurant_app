@@ -21,3 +21,34 @@ body {
   width: 24rem;
   background-color: #FFFFFF;
 }
+
+.maroon-color {
+  color: #A21A24;
+}
+
+/* pages-heading */
+.pages-heading {
+  height: 6rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back-arrow-icon {
+  font-size: 1.6rem;
+}
+
+.pages-heading h1{
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+/* .pages-heading Link */
+.pages-heading a{
+  text-decoration: none;
+  left: 1rem;
+  position: absolute;
+  display: flex;
+  color: #000000;
+}

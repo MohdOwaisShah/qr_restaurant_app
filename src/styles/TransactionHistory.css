@@ -1,0 +1,112 @@
+/* transactions-container */
+.transactions-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 6rem;
+}
+
+.transaction {
+    max-height: 5rem;
+    width: 20rem;
+    border-radius: 1rem;
+    background-color: #EDEDED;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.4s ease;
+}
+
+/* transaction-bar */
+.transaction-bar {
+    min-height: 5rem;
+    width: 100%;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EDEDED;
+    gap: 1rem;
+}
+
+.transaction img {
+    height: 3.3rem;
+}
+
+/* process-n-date-container */
+.process-n-date-container h3 {
+    font-size: 1.1rem;
+}
+
+.process-n-date-container p {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* check icon */
+.transaction .check-icon {
+    font-size: 2.4rem;
+    padding-left: 3.7rem;
+}
+
+/* transaction-hidden-body */
+.transaction-hidden-body {
+    max-height: 0;
+    width: 18rem;
+    transition: max-height 0.3s ease, visibility 0.3s ease;
+    visibility: hidden;
+    overflow: hidden;
+}
+
+.transaction-hidden-body h3 {
+    font-size: 1.1rem;
+    color: #515151;
+}
+
+/* transaction-id */
+.transaction-hidden-body .transaction-id {
+    font-size: 1rem;
+    color: #515151;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+}
+
+/* download-receipt */
+.download-receipt {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* download-icon */
+.fa-cloud-arrow-down {
+    font-size: 1.5rem;
+    color: #515151;
+}
+
+.download-receipt p {
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+/* transaction-show-body  */
+.transaction-show-body {
+    max-height: 7rem;
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    overflow: hidden;
+    visibility: visible;
+    padding-bottom: 1rem;
+}
+
+.show {
+    max-height: 14rem;
+    transition: all 0.3s ease;
+}
