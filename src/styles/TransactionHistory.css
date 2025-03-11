@@ -56,6 +56,9 @@
 .transaction-hidden-body {
     max-height: 0;
     width: 18rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
     transition: max-height 0.3s ease, visibility 0.3s ease;
     visibility: hidden;
     overflow: hidden;
