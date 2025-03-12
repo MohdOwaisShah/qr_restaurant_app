@@ -23,17 +23,18 @@ const TransactionHistoryMain = () => {
                         return <div className={`transaction ${active===index ? 'show' : ''}`} key={transaction.id} >
                             {/* transaction-bar */}
                             <div className="transaction-bar" style={{color : transaction.color}} onClick={() => handleClick(index)}>
-                                <img src={transaction.transactionImage} alt="upi image" />
+                                {/* <img src={transaction.transactionImage} alt="upi image" /> */}
+                                 {/* process-icon */}
+                                 <i className={`fa-solid ${transaction.transactionProcessIcon} process-icon`}></i>
                                 {/* process-n-date-container */}
                                 <div className="process-n-date-container">
                                     <h3>{transaction.transactionProcess}</h3>
                                     <p>{transaction.transactionDate}</p>
                                 </div>
-                                {/* check-icon */}
-                                <i className={`fa-solid ${transaction.transactionProcessIcon} check-icon`}></i>
+                                {/* transaction-price */}
+                                <h3 className='transaction-price'><span className='maroon-color'>₹</span>1500</h3>
                             </div>
                             {/* transaction-hidden-body */}
-                            {/* {active ? <TransactionHiddenBody /> : false} */}
                             <div className={`transaction-hidden-body ${active===index ? 'transaction-show-body' : ''}`}>
                                 <h3>Paid to : {transaction.paidTo} </h3>
                                 {/* transaction-id */}
