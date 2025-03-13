@@ -36,6 +36,9 @@
 /* process icon */
 .transaction-bar .process-icon {
     font-size: 2rem;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    padding: 0.6rem;
 }
 
 /* process-n-date-container */
