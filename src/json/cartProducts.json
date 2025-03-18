@@ -1,42 +1,42 @@
 [
     {
         "id": 1,
-        "cartProductImage": "/public/Images/cart-images/veg-thali.png",
+        "cartProductImage": "/public/Images/product-images/veg-thali.png",
         "cartProductName": "Vdfsdfeg thali",
         "cartProductDesc": "Chappati, Jeera Rice, Dal, 2 roti and papad",
         "cartProductPrice": 100
     },
     {
         "id": 2,
-        "cartProductImage": "/public/Images/cart-images/veg-thali.png",
+        "cartProductImage": "/public/Images/product-images/veg-thali.png",
         "cartProductName": "Veg thali",
         "cartProductDesc": "Chappati, Jeera Rice, Dal, 2 roti and papad",
         "cartProductPrice": 100
     },
     {
         "id": 3,
-        "cartProductImage": "/public/Images/cart-images/veg-thali.png",
+        "cartProductImage": "/public/Images/product-images/veg-thali.png",
         "cartProductName": "Veg thali",
         "cartProductDesc": "Chappati, Jeera Rice, Dal, 2 roti and papad",
         "cartProductPrice": 100
     },
     {
         "id": 4,
-        "cartProductImage": "/public/Images/cart-images/veg-thali.png",
+        "cartProductImage": "/public/Images/product-images/veg-thali.png",
         "cartProductName": "Veg thali",
         "cartProductDesc": "Chappati, Jeera Rice, Dal, 2 roti and papad",
         "cartProductPrice": 100
     },
     {
         "id": 5,
-        "cartProductImage": "/public/Images/cart-images/veg-thali.png",
+        "cartProductImage": "/public/Images/product-images/veg-thali.png",
         "cartProductName": "Veg thali",
         "cartProductDesc": "Chappati, Jeera Rice, Dal, 2 roti and papad",
         "cartProductPrice": 100
     },
     {
         "id": 6,
-        "cartProductImage": "/public/Images/cart-images/veg-thali.png",
+        "cartProductImage": "/public/Images/product-images/veg-thali.png",
         "cartProductName": "Veg thali",
         "cartProductDesc": "Chappati, Jeera Rice, Dal, 2 roti and papad",
         "cartProductPrice": 100

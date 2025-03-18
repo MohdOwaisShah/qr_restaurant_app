@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './App.jsx'
 import Cart from './pages/Cart.jsx'
 import TransactionHistory from './pages/TransactionHistory.jsx'
+import ReOrder from './pages/ReOrder.jsx'
 
 // create router and provide path
 const router = createBrowserRouter(
@@ -14,6 +15,10 @@ const router = createBrowserRouter(
     {
       path: '/',
       element: <App />
+    },
+    {
+      path: '/re-order',
+      element: <ReOrder />
     },
     {
       path: '/cart',

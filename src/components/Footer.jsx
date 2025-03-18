@@ -17,8 +17,10 @@ const Footer = () => {
             </div>
             <div className="footer-nav">
                 {/* reorder-icon */}
-                <i className="fa-solid fa-repeat"></i>
-                <p>Reorder</p>
+                <Link to={'/re-order'}>
+                    <i className="fa-solid fa-repeat"></i>
+                    <p>Reorder</p>
+                </Link>
             </div>
             <div className="footer-nav">
                 {/* cart-icon */}

@@ -4,7 +4,7 @@ import PagesHeading from './small-ui/PagesHeading'
 import transactionHistory from '../json/transactionHistory.json'
 
 const TransactionHistoryMain = () => {
-    // store index of transactionHistory json
+    
     const [active, setActive] = useState(null)
 
     const handleClick = (index) => {
